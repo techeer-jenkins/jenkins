@@ -31,4 +31,6 @@ docker-compose --version
 
 echo "Docker & Docker Compose Installation Complete."
 
+sudo usermod -aG docker ubuntu
+
 systemctl reboot
