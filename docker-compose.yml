@@ -5,7 +5,7 @@ services:
   jenkins:
     build:
       context: .
-      dockerfile: Dockerfile.jenkins
+      dockerfile: Dockerfile
     restart: always
     user: root
     container_name: jenkins
